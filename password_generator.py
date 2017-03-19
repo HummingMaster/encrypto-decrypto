@@ -2,7 +2,7 @@ import random
 
 password_size = int(input('size: '))
 char_ = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
-char = char_ + char_.lower() + '!@#$%^&*()_"+-=\'[]{};:,\.|<>/? ' + '0123456789'
+char = char_ + char_.lower() + '!@#$%^&*()_"+-\'=\\[]{};:,\.|<>/? ' + '0123456789'
 
 
 def password(size):
